@@ -1,2 +1,2 @@
-xz-5.2.6/configure
-make install -C xz-5.2.6
+./configure
+make install
