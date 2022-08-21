@@ -1,3 +1,2 @@
-cp .config busybox-1_35_0
-make -C busybox-1_35_0
-cp busybox-1_35_0/busybox /usr/bin/busybox
+make 
+cp busybox /usr/bin/busybox
