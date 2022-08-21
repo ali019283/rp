@@ -1,3 +1,0 @@
-rm -r /usr/local/share/dogefetch
-rm /usr/local/bin/dogefetch
-rm -r /var/db/rp/installed/dogefetch
