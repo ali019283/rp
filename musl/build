@@ -1,2 +1,2 @@
-./configure --prefix=/urs --syslibdir=/usr/lib
+./configure --prefix=/usr --syslibdir=/usr/lib
 make install
