@@ -1,2 +1,7 @@
-mkdir -p /var/db/rp/
-cp -r * /var/db/rp/
+for sub_dir in /var/db/rp/*; do
+    if [ -d "$sub_dir" ]; then
+        sub_dir_name=$(basename "$sub_dir")
+        cp "$sub_dir_name/source" "$sub_dir/source"
+	cp "$sub_dir_name/build" "$sub_dir/build"
+    fi
+done
